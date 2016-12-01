@@ -9,7 +9,6 @@ static float const    SensorMaximumAccel  = 9.81 * 4.0;
 static uint8_t const  SensorAccelerometer = 0x1D;
 static uint32_t const ShakeThreshold      = 24;
 static float          ShakeAccumulator    = 0;
-
 void ShakeInit()
 {
   WireWriteRegister(SensorAccelerometer, 0x31, 1);

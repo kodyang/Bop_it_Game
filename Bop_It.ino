@@ -28,9 +28,6 @@ void setup()
   pinMode(RED_LED, OUTPUT);
   pinMode(GREEN_LED,OUTPUT);
   
-  // Read some analog signal and scale it arbitrarily
-  // for random seed.
-  //srand((7+analogRead(Potentiometer)) * 347);
 }
 
 void loop() 
